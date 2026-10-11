@@ -12,11 +12,11 @@ Start:
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.routers import tenders as tenders_router
-from backend.routers import summary as summary_router
-from backend.routers import network as network_router
-from backend.routers import auth as auth_router
-from backend.routers import gov as gov_router
+from routers import tenders as tenders_router
+from routers import summary as summary_router
+from routers import network as network_router
+from routers import auth as auth_router
+from routers import gov as gov_router
 import utils.database as db
 
 app = FastAPI(
