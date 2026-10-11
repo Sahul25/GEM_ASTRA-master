@@ -17,8 +17,7 @@ from pydantic import BaseModel, Field
 
 # Lazy-import the database layer so this module doesn't break anything
 # if imported in a non-database context.
-import utils.database as db
-
+from utils import database as db
 router = APIRouter(prefix="/api/tenders", tags=["tenders"])
 
 # --------------------------------------------------------------------------- #
