@@ -1,4 +1,4 @@
-const BASE = "/api";
+const BASE = "https://gem-astra-backend.onrender.com/api";
 
 // --------------------------------------------------------------------------
 // Types matching the backend Pydantic models exactly
